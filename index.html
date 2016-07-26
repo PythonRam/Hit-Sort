@@ -12,26 +12,32 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Hit-Sort</h1>
-      <h2 class="project-tagline">My sorting algorithm can be used for big arrays only, 12 times faster than bubble sort. </h2>
+      <h2 class="project-tagline">My sorting algorithm can be used for big positive integer arrays only, 12 times faster than bubble sort. </h2>
       <a href="https://github.com/PythonRam/Hit-Sort" class="btn">View on GitHub</a>
       <a href="https://github.com/PythonRam/Hit-Sort/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/PythonRam/Hit-Sort/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <p>All the functions used are pretty easy to understand except for the %9 part See that is used for separating the array into 9 different arrays which then makes our job faster and efficent</p>
+      <p>We come across situations in real life where we may have to sort positive integers because that's how we count in real life, but when the count becomes big and basic sorts won't work we need something more than just comparing two numbers. This is sorting algorithm to make your job easier.
+At 10,000 numbers in an array it takes less than 1/5th of a second to sort and his 12 times faster than regular basic sorts.
+When the numbers in the array get more and more it becomes harder and harder to solve with regular sorts, but this will sort the array in much smaller time. When tested with 10000000 numbers it did the job without throwing maximum depth error in a much faster time.
+I will make the same code in all the languages I'm familiar with  </p>
 
-<p>Why %9 instead of anything else you ask ?</p>
+<ul>
+<li>Python(done)</li>
+<li>C# (coming soon)</li>
+<li>JAVA (coming soon)</li>
+<li>php (coming soon)</li>
+<li>JavaScript (coming soon)</li>
+<li>C++ (coming soon)</li>
+</ul>
 
-<p>That's because when do number%9 we get sum of all digits and then sum of all digits for that and so on until we get a single digit number</p>
+<h4>
+<a id="all-of-the-trick-lies-in-dividing-the-numbers-into-groups-finding-the-minimum-value-of-each-group-and-find-minimum-in-group-of-minimums-obtained" class="anchor" href="#all-of-the-trick-lies-in-dividing-the-numbers-into-groups-finding-the-minimum-value-of-each-group-and-find-minimum-in-group-of-minimums-obtained" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>All of the trick lies in dividing the numbers into groups finding the minimum value of each group and find minimum in group of minimums obtained</h4>
 
-<p>18123%9 = 6
-1+8+1+2+3=15 =&gt; 1+5 =6
-See what I am saying, except for 9 multiples and 0-9 we get 0 which is okay because that's unique</p>
-
-<p>We seperate the array elements into 9 groups because modulo only returns 0-8 that makes them 9 groups</p>
-
-<p>Rest of the code is self explainatory and feel free to email me at <a href="mailto:python.hithesh@gmail.com">python.hithesh@gmail.com</a></p>
+<p>Rest of the code is self explanatory and feel free to email me at <a href="mailto:python.hithesh@gmail.com">python.hithesh@gmail.com</a>
+Author <a href="https://github.com/PythonRam" class="user-mention">@PythonRam</a></p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/PythonRam/Hit-Sort">Hit-Sort</a> is maintained by <a href="https://github.com/PythonRam">PythonRam</a>.</span>
